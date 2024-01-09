@@ -1,0 +1,3 @@
+[submodule "AnimalsModule"]
+	path = AnimalsModule
+	url = https://github.com/szum7/AnimalsModule.git
