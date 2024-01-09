@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooContainerApp", "ZooContainerApp\ZooContainerApp.csproj", "{F0544A96-115A-4600-B0FB-E607BBE1F81D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooContainerApp", "ZooContainerApp\ZooContainerApp.csproj", "{F0544A96-115A-4600-B0FB-E607BBE1F81D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{0ECFDA1E-42E6-4A84-89B1-2ADC52526163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LionPlugin", "AnimalsModule\LionPlugin\LionPlugin.csproj", "{B8DB9439-E55C-4D1C-80DE-D427853B9923}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,16 @@ Global
 		{F0544A96-115A-4600-B0FB-E607BBE1F81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0544A96-115A-4600-B0FB-E607BBE1F81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0544A96-115A-4600-B0FB-E607BBE1F81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DB9439-E55C-4D1C-80DE-D427853B9923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DB9439-E55C-4D1C-80DE-D427853B9923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DB9439-E55C-4D1C-80DE-D427853B9923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DB9439-E55C-4D1C-80DE-D427853B9923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8DB9439-E55C-4D1C-80DE-D427853B9923} = {0ECFDA1E-42E6-4A84-89B1-2ADC52526163}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {124155F8-BF96-4F66-8935-11E84345998F}

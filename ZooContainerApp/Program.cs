@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LionPlugin;
+using System;
 
 namespace ZooContainerApp
 {
@@ -6,6 +7,9 @@ namespace ZooContainerApp
     {
         static void Main(string[] args)
         {
+            var animal1 = new Lion();
+            animal1.Add();
+
             Console.WriteLine("END");
         }
     }
